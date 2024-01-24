@@ -82,12 +82,16 @@ git clone https://github.com/harutmuradyan/React-Music-Player.git
 
 ## 6.2 Navigate to the project directory
 
+cd React-Music-Player
+
+## 6.3 Navigate to the project directory
+
 cd app
 
-## 6.3 Install dependencies
+## 6.4 Install dependencies
 
 npm install
 
-## 6.4 Run the development server
+## 6.5 Run the development server
 
 npm run start
