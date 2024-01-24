@@ -1,0 +1,496 @@
+/*Global App styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Main block styles*/
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*Content block styles*/
+.content {
+    width: 1200px;
+}
+
+
+/*navbar block styles*/
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border:solid 1px rgb(148, 148, 148);
+    padding: 10px;
+    margin:10px 0px 10px 0px;
+    background-color: rgb(246, 246, 246);
+}
+
+/*navbar block style*/
+.navbar-left,.navbar-right {
+    display: flex;
+}
+
+/*addAllButton and playAllbutton blocks style*/
+.addAllButton , .playAllButton {
+    border-radius: 5px;
+    border:solid 2px rgb(148, 148, 148);
+    margin-right:10px;
+    width:130px;
+    display: flex;
+    justify-content:space-between;
+}
+
+/*play button style*/
+.play-button {
+    width: 80%;
+    padding: 5px 10px 5px 10px;
+    border:none;
+    cursor: pointer;
+    border-right:solid 2px rgb(148, 148, 148);
+    background-color: rgb(246, 246, 246);
+    font-weight: bold;
+}
+
+/*add button style*/
+.add-button {
+    width: 80%;
+    padding: 5px 10px 5px 10px;
+    border:none;
+    cursor: pointer;
+    border-right:solid 1px rgb(148, 148, 148);
+    background-color: rgb(246, 246, 246);
+    font-weight: bold;
+}
+
+/*open button style*/
+.open-button {
+    width: 20%;
+    padding: 5px 10px 5px 10px;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(246, 246, 246);
+    font-weight: bold;
+}
+
+/*sort button style*/
+.sort-button {
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    border:solid 2px rgb(148, 148, 148);
+    border-radius: 5px;
+    margin-right:10px;
+    background-color: rgb(246, 246, 246);
+    font-weight: bold;
+}
+
+/*search button style*/
+.search-button {
+    padding: 5px 10px 5px 10px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    width: 215px;
+    border-radius: 20px;
+    border:solid 2px rgb(148, 148, 148);
+    background-color:white;
+}
+
+/*search block input style*/
+.search-input {
+    width: 160px;
+    height: 100%;
+    border:none;
+}
+
+/*search block icon style*/
+.search-icon {
+    margin: 7px 0px 7px 5px;
+}
+
+/*play,add,sort,search buttons style*/
+.play-icon , .add-icon , .sort-icon , .search-icon {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/*Sort button iconDown style*/
+.sort-iconDown {
+    margin-left: 10px;
+}
+
+/*Song Row Seaction style*/
+.songRow {
+    width: 100%;
+}
+
+/*Song articles block styles*/
+.songArticles {
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+/*offset song-articles first block style*/
+.offset-1 {
+    width: 25px;
+}
+/*offset song-articles end block style*/
+.offset-2 {
+    width: 160px;
+    border-left: solid 1px white;
+}
+/*Song-Articles-span block style*/
+.song-ArticlesSpan {
+    display: none;
+    background-color: rgb(246, 246, 246);
+    padding: 10px 0px 10px 0px;
+}
+
+
+/*SongName , ArtistName , Track  ` text border left color white style*/
+.borderLeftWhite {
+    border-left: solid 1px white;
+}
+
+/*Song List block style*/
+.songList {
+    width: 100%;
+
+}
+
+/*Song block style*/
+.song {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(200, 200, 200);
+}
+
+/*Song block button tag hover styles*/
+.song:hover button {
+    background-color: rgb(237, 237, 237);
+}
+
+/*Song block hover styles*/
+.song:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+/*Song buttons left and right group style*/
+.song-buttonsLeftGroup {
+    width: 25px;
+    display: flex;
+}
+
+.song-buttonsRightGroup {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Song name style*/
+.song-name {
+    padding: 16px 0px 10px 5px;
+    width: 33%;
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+}
+
+/*Song artist style*/
+.song-artistName {
+    padding: 16px 0px 10px 5px;
+    width: 38%;
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+}
+
+/*Song track-number style*/
+.song-number {
+    padding: 16px 0px 10px 5px;
+    width: 2%;
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+}
+
+/*buttons down,heart,share,check style*/
+.song-down,.song-heart,.song-share,.song-check {
+    margin: 7px;
+    border:none;
+    cursor: pointer;
+    background-color:white;
+    color: rgb(83, 83, 83);
+    padding: 10px 0px 10px 0px;
+} 
+
+/*buttons play,bar style*/
+.song-play,.song-bar {
+    margin: 5px 7px 5px 7px;
+    border:none;
+    cursor: pointer;
+    background-color:white;
+    color: rgb(83, 83, 83);
+    padding: 10px 0px 10px 0px;
+}
+
+/*Music-Upload-Form-Modal-block styles*/
+.musicUploadFormModal {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*Music-Upload-Form-Modal content block styles*/
+.musicUploadFormModal-content {
+    width:70%;
+    height: 470px;
+    background-color:white;
+    margin:60px 10px 100px 10px;
+    border-radius:10px;
+}
+
+/*Close modal block styles*/
+.closeModal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+/*Close modal button styles*/
+.closeModal-button {
+    padding: 5px;
+    background-color:white;
+    border:solid 1px grey;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+/*Paragraf title style*/
+.title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom:solid 1px grey;
+    padding-bottom: 10px;
+}
+
+/*Music-upload-form styles*/
+.musicUploadForm {
+    width: 100%;
+    overflow-y: scroll;
+    height: 350px;
+}
+
+/*Music-upload-form block styles*/
+.musicUploadForm-block , .musicUpload-block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.musicUpload {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border:solid 1px grey;
+    padding: 5px ;
+    margin: 5px;
+}
+
+/*Music-upload-form submit button*/
+.musicUploadForm-submit {
+    width: 150px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px 0px 10px 0px;
+    border-radius: 5px;
+    border:solid 1px grey; 
+}
+
+/*Music-upload-form upload input style*/
+.musicUpload-uploadInput {
+    display: none;
+}
+
+/*Music-upload-form label styles*/
+.musicUpload-label {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/*Music-upload-form input styles*/
+.musicUpload-input {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+/*Music-upload-form block image*/
+.musicUpload-block__image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*Music-upload-form image*/
+.musicUpload-image {
+    width: 100px;
+    margin-top: 10px;
+    height: auto;
+}
+/*Music-upload details item block style*/
+.musicUpload-details__item {
+    margin-top:5px;
+    list-style-type: none;
+    font-weight: bold;
+}
+/*Music-upload details block style*/
+.musicUpload-details {
+    width: 100%;
+    padding: 5px;
+    border-bottom:solid 1px grey ;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/*Music-upload details span block style*/
+.musicUpload-details__span {
+    width: 100%;
+    display: block;
+    padding: 5px 0px 5px 0px;
+}
+
+/*spiner block style*/
+.sipnner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*spiner-content block style*/
+.sipnner-content {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+/*loader block style*/
+.spinner-loader {
+    width: 48px;
+    height: 48px;
+    border: 5px dotted black;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 2s linear infinite;
+}
+  
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}  
+
+/*media size sm styles*/
+@media screen and (max-width: 572px) {
+    .search-button {
+        width:100px;
+    }
+    .search-input {
+        width: 60px;
+        padding-left: 5px;
+    }
+    .songArticles {
+        display: none;
+    }
+    .song {
+        display: flex;
+        flex-wrap: wrap;
+        border:none;
+    }
+
+    .song-name,.song-artistName,.song-number {
+        width: 65% !important;
+        border-bottom:solid 1px rgb(211, 211, 211);
+        font-size: 12px;
+    }
+    
+    .song-ArticlesSpan {
+        display: block;
+        width: 100px ;
+        padding: 15px;
+        font-size: 12px;
+        border-bottom:solid 1px rgb(211, 211, 211);
+    }
+    .song-buttonsLeftGroup,.song-buttonsRightGroup {
+        width: 100% !important;
+        padding: 10px;
+    }
+    .musicUpload {
+        width: 100%;
+    }
+}
+
+
+/*media size md styles*/
+@media screen and (max-width:768px) {
+    .span {
+        display: none;
+    }
+    .addAllButton, .playAllButton , .sortButton {
+        width: auto;
+    }
+    .add-button,.open-button {
+        width: auto;
+        height: auto;
+    }
+    .play-icon , .add-icon , .sort-icon , .search-icon {
+        margin-right: 0px;
+    } 
+    .musicUpload {
+        width: 80%;
+    }
+}
+
+/*media size lg styles*/
+@media screen and (max-width:992px) {
+    .offset-1,.song-buttonsLeftGroup {
+       width: 60px;
+    }
+    .search-icon {
+        padding-right: 5px;
+    }
+}
+
+/*media size xl styles*/
+@media screen and (max-width:1200px) {
+    .offset-1,.song-buttonsLeftGroup {
+        width: 50px;
+    }
+    .song-number {
+        width: 60px;
+    }
+}
+
+
+
+
+
