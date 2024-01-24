@@ -78,7 +78,7 @@ The function is designed to inform the console that the PlayAll command has been
 
 ## 6.1 lone the repository
 
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/harutmuradyan/React-Music-Player.git
 
 ## 6.2 Navigate to the project directory
 
