@@ -76,7 +76,7 @@ The function is designed to inform the console that the PlayAll command has been
 
 # 6 Installation
 
-## 6.1 lone the repository
+## 6.1 Clone the repository
 
 git clone https://github.com/harutmuradyan/React-Music-Player.git
 
